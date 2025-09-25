@@ -2,7 +2,7 @@
 
 ## Nome dos(as) integrantes da equipe
 - [Gabriel Santos Afini da Silva](https://github.com/AzumaNoDoragon)
-- [Nádia ???](https://github.com/nadiayuzawa)
+- [Nádia Akemi Yuzawa](https://github.com/nadiayuzawa)
 
 ## ODS selecionado ou instituição atendida
 
