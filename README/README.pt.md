@@ -26,3 +26,4 @@ Frontend site developed with HTML, CSS, and JavaScript, displaying information a
 >
 > Estrutura inicial do projeto. Pode sofrer alterações durante o desenvolvimento.
 
+![Image](https://github.com/user-attachments/assets/c7797bb0-b4c9-4001-a2d0-106d0eac89f6)
