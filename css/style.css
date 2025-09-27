@@ -1,4 +1,4 @@
-.pic {
+.cabecalho {
     display: flex;
     align-items: center;
     margin: 10px auto;
@@ -10,6 +10,14 @@
 }
 
 #logo {
-    width: 250px;
+    width: 70px;
     margin-right: 20px;
+}
+
+body{
+    background-color:bisque;
+}
+
+.introducao{
+    font-size: large;
 }
