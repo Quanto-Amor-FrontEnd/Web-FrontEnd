@@ -1,23 +1,71 @@
-.cabecalho {
-    display: flex;
-    align-items: center;
-    margin: 10px auto;
-}
-
-.pic img {
-    width: 150px;
-    margin-right: 20px;
-}
-
+/* ID */
 #logo {
     width: 70px;
     margin-right: 20px;
 }
 
-body{
-    background-color:bisque;
+/* CLASS */
+.cabecalho {
+    display: flex;
+    align-items: center;
 }
 
-.introducao{
+.cabecalho h1 {
+    margin: 0;
+}
+
+.cabecalho h4 {
+    margin-bottom: 3px;
+}
+
+.cabecalho ul {
+    padding-left: 0;
+    list-style: none;
+    margin: 0;
+}
+
+.cabecalho .info {
+    display: flex;
+    flex-direction: column;
+}
+
+.ico {
+    width: 20px;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+.link, .linkSmall {
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.linkSmall {
+    font-size: small;
+}
+
+.link:hover, .linkSmall:hover {
+    text-decoration: underline;
+}
+
+.introducao {
     font-size: large;
+}
+
+.pic img {
+    width: 150px;
+    margin-right: 20px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    display: inline;
+}
+
+.pic img:hover {
+    transform: scale(1.15) translateX(10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5)
+}
+
+/* ELEMENTOS*/
+body {
+    background-color: bisque;
 }
