@@ -52,7 +52,15 @@
     font-size: large;
 }
 
-.pic img {
+.introducao h4 {
+    margin-bottom: 3px;
+}
+
+.introducao ol {
+    margin: 0;
+}
+
+.ODS img {
     width: 150px;
     margin-right: 20px;
     transition: all 0.3s ease;
@@ -60,12 +68,51 @@
     display: inline;
 }
 
-.pic img:hover {
+.ODS h3{
+    align-self: ;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.ODS figcaption {
+    display: inline;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ODS img:hover {
     transform: scale(1.15) translateX(10px);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5)
 }
 
-/* ELEMENTOS*/
-body {
-    background-color: bisque;
+.ODS article {
+    background-color: #fffaf2;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.ODS article:nth-of-type(1):hover {
+    /* ODS 4 RGB(197, 25, 45) */
+    box-shadow: 0 6px 12px rgba(197, 25, 45, 1);
+}
+
+.ODS article:nth-of-type(2):hover {
+    /* ODS 5 RGB(221, 19, 103) */
+    box-shadow: 0 6px 12px rgba(221, 19, 103, 1);
+}
+
+.ODS article:nth-of-type(3):hover {
+    /* ODS 8 RGB(248, 157, 42) */
+    box-shadow: 0 6px 12px rgba(248, 157, 42, 1);
+}
+
+.ODS article:nth-of-type(4):hover {
+    /* ODS 12 RGB(191, 139, 46) */
+    box-shadow: 0 6px 12px rgba(191, 139, 46, 1);
+}
+
+.ODS article:nth-of-type(5):hover {
+    /* ODS 13 RGB(63, 126, 68) */
+    box-shadow: 0 6px 12px rgba(63, 126, 68, 1);
 }
