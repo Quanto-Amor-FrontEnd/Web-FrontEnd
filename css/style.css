@@ -1,10 +1,29 @@
-/* ID */
+/* ====== GERAL ====== */
+body {
+    background-color: rgb(245, 240, 193);
+}
+
+.link,
+.linkSmall {
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.linkSmall {
+    font-size: small;
+}
+
+.link:hover,
+.linkSmall:hover {
+    text-decoration: underline;
+}
+
+/* ====== HEADER ====== */
 #logo {
     width: 70px;
     margin-right: 20px;
 }
 
-/* CLASS */
 .cabecalho {
     display: flex;
     align-items: center;
@@ -29,25 +48,13 @@
     flex-direction: column;
 }
 
-.ico {
+.cabecalho .ico {
     width: 20px;
     margin-right: 20px;
     vertical-align: middle;
 }
 
-.link, .linkSmall {
-    font-weight: normal;
-    text-decoration: none;
-}
-
-.linkSmall {
-    font-size: small;
-}
-
-.link:hover, .linkSmall:hover {
-    text-decoration: underline;
-}
-
+/* ====== MAIN ====== */
 .introducao {
     font-size: large;
 }
@@ -116,3 +123,5 @@
     /* ODS 13 RGB(63, 126, 68) */
     box-shadow: 0 6px 12px rgba(63, 126, 68, 1);
 }
+
+/* ====== FOOTER ====== */
