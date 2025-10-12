@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quanto Amor Você Tem Para Dar?</title>
+    <link rel="icon" href="assets/figs/bigLogo.ico">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main class="cabecalho_login">
+        <aside class="login_titulo">
+            <div class="logo_titulo">
+                <img id="logo" src="assets/img/QuantoAmor.png" alt="Logo do projeto Quanto Amor Você Tem Para Dar?">
+                <h1>Formulário de Login</h1>
+            </div>
+        </aside>
+
+        <section class="info_login">
+            <form class="login" action="login.html" method="get">
+                <label for="email">E-mail:</label><br>
+                <input type="text" id="email" name="email" placeholder="insira um e-mail válido" required><br>
+
+                <label for="senha">Senha:</label><br>
+                <input type="password" id="senha" name="senha" required><br>
+
+                <label for="senha_confirmar">Confirmar Senha:</label><br>
+                <input type="password" id="senha_confirmar" name="senha_confirmar" required oninput="this.setCustomValidity(this.value !== document.getElementById('senha').value ? 'As senhas não coincidem.' : '')"><br>
+
+                <input type="submit">
+            </form>
+        </section>
+    </main>
+</body>
+</html>
