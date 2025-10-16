@@ -1,0 +1,52 @@
+@import url("style.css");
+
+/* ====== CADASTRO ====== */
+
+.cabecalho_cadastro{
+    display: flex;
+    max-width: 1000px;
+    margin: 40px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.cadastro_titulo{
+    flex: 1;
+    /* Ocupa 1 parte do espaço flexível disponível */
+    background-color: #34495e;
+    color: #ecf0f1;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.info_cadastro{
+    flex: 2;
+    /* Ocupa 2 partes do espaço flexível disponível */
+    padding: 40px 50px;
+    flex-direction: column;
+    /* Organiza os elementos em coluna */
+    align-items: center;
+    /* Centraliza o conteúdo horizontalmente */
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .cabecalho_cadastro {
+        flex-direction: column;
+        /* Em telas menores, as colunas se empilham */
+    }
+
+    .cadastro_titulo{
+        padding: 30px 20px;
+        border-bottom: 5px solid #2c3e50;
+    }
+
+    .info_cadastro {
+        padding: 30px 20px;
+    }
+}

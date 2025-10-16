@@ -1,0 +1,151 @@
+@import url("style.css");
+
+/* ====== GERAL ====== */
+.link,
+.linkSmall {
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.linkSmall {
+    font-size: small;
+}
+
+.link:hover,
+.linkSmall:hover {
+    text-decoration: underline;
+}
+
+/* ====== HEADER ====== */
+#head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+    padding: 20px 40px;
+    background-color: rgb(245, 240, 193);
+}
+
+.cabecalho {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.cabecalho .info {
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho h1 {
+    margin: 0;
+}
+
+.cabecalho h4 {
+    margin-bottom: 3px;
+}
+
+.cabecalho ul {
+    padding-left: 0;
+    list-style: none;
+    margin: 0;
+}
+
+.cabecalho .ico {
+    width: 20px;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+.pag {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;  
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+}
+
+@media (max-width: 768px) {
+    #head {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .pag {
+        flex-direction: row;  
+        margin-top: 10px;
+        align-items: center;
+    }
+}
+
+/* ====== MAIN ====== */
+.introducao {
+    font-size: large;
+}
+
+.introducao h4 {
+    margin-bottom: 3px;
+}
+
+.introducao ol {
+    margin: 0;
+}
+
+.ODS img {
+    width: 150px;
+    margin-right: 20px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    display: inline;
+}
+
+.ODS h3{
+    font-family: "Courier New", Courier, monospace;
+}
+
+.ODS figcaption {
+    display: inline;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ODS img:hover {
+    transform: scale(1.15) translateX(10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5)
+}
+
+.ODS article {
+    background-color: #fffaf2;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.ODS article:nth-of-type(1):hover {
+    /* ODS 4 RGB(197, 25, 45) */
+    box-shadow: 0 6px 12px rgba(197, 25, 45, 1);
+}
+
+.ODS article:nth-of-type(2):hover {
+    /* ODS 5 RGB(221, 19, 103) */
+    box-shadow: 0 6px 12px rgba(221, 19, 103, 1);
+}
+
+.ODS article:nth-of-type(3):hover {
+    /* ODS 8 RGB(248, 157, 42) */
+    box-shadow: 0 6px 12px rgba(248, 157, 42, 1);
+}
+
+.ODS article:nth-of-type(4):hover {
+    /* ODS 12 RGB(191, 139, 46) */
+    box-shadow: 0 6px 12px rgba(191, 139, 46, 1);
+}
+
+.ODS article:nth-of-type(5):hover {
+    /* ODS 13 RGB(63, 126, 68) */
+    box-shadow: 0 6px 12px rgba(63, 126, 68, 1);
+}
+
+/* ====== FOOTER ====== */
