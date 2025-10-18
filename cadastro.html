@@ -31,11 +31,12 @@
                 <input type="password" id="senha" name="senha" required><br>
 
                 <label for="senha_confirmar">Confirmar Senha:</label><br>
-                <input type="password" id="senha_confirmar" name="senha_confirmar" required oninput="this.setCustomValidity(this.value !== document.getElementById('senha').value ? 'As senhas não coincidem.' : '')"><br>
+                <input type="password" id="senha_confirmar" name="senha_confirmar" required><br>
 
-                <input type="submit">
+                <button type="button" onclick="botaoCadastro()">Cadastrar</button>
             </form>
         </section>
     </main>
+    <script src="js/script.js"></script>
 </body>
 </html>

@@ -93,7 +93,7 @@
 }
 
 .ODS img {
-    width: 150px;
+    width: 250px;
     margin-right: 20px;
     transition: all 0.3s ease;
     cursor: pointer;
@@ -104,10 +104,9 @@
     font-family: "Courier New", Courier, monospace;
 }
 
-.ODS figcaption {
-    display: inline;
+.ODS p {
+    display: flex;
     align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .ODS img:hover {
