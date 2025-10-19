@@ -1,10 +1,10 @@
-/* ====== GERAL ====== */
+/* Modularização do css, aqui ficam as lógicas que mais de uma pag usa. */
 body {
     background-color: rgb(245, 240, 193);
+    padding: 20px 50px 20px 50px;
 }
 
 #logo {
     width: 70px;
     margin-right: 20px;
 }
-

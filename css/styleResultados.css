@@ -1,43 +1,4 @@
-@import url("style.css");
-
-#head {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start; 
-    padding: 20px 40px;
-    background-color: rgb(245, 240, 193);
-}
-
-.cabecalho {
-    display: flex;
-    align-items: flex-start;
-    gap: 20px;
-}
-
-.cabecalho .info {
-    display: flex;
-    flex-direction: column;
-}
-
-.cabecalho h1 {
-    margin: 0;
-}
-
-.cabecalho h4 {
-    margin-bottom: 3px;
-}
-
-.cabecalho ul {
-    padding-left: 0;
-    list-style: none;
-    margin: 0;
-}
-
-.cabecalho .ico {
-    width: 20px;
-    margin-right: 20px;
-    vertical-align: middle;
-}
+@import url("styleIndexResultados.css");
 
 .Evento h3 {
     font-family: "Courier New", Courier, monospace;

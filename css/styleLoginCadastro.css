@@ -1,8 +1,6 @@
 @import url("style.css");
 
-/* ====== LOGIN ====== */
-
-.cabecalho_login{
+.cabecalho_form{
     display: flex;
     max-width: 1000px;
     margin: 40px auto;
@@ -12,7 +10,7 @@
     overflow: hidden;
 }
 
-.login_titulo{
+.titulo_form{
     flex: 1;
     /* Ocupa 1 parte do espaço flexível disponível */
     background-color: #34495e;
@@ -24,7 +22,7 @@
     text-align: center;
 }
 
-.info_login{
+.info_form{
     flex: 2;
     /* Ocupa 2 partes do espaço flexível disponível */
     padding: 40px 50px;
@@ -36,17 +34,17 @@
 }
 
 @media (max-width: 768px) {
-    .cabecalho_login {
+    .cabecalho_form {
         flex-direction: column;
         /* Em telas menores, as colunas se empilham */
     }
 
-    .login_titulo {
+    .titulo_form{
         padding: 30px 20px;
         border-bottom: 5px solid #2c3e50;
     }
 
-    .info_login {
+    .info_form {
         padding: 30px 20px;
     }
 }
