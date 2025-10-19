@@ -1,0 +1,91 @@
+@import url("style.css");
+
+#head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+    padding: 20px 40px;
+    background-color: rgb(245, 240, 193);
+}
+
+.cabecalho {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.cabecalho .info {
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho h1 {
+    margin: 0;
+}
+
+.cabecalho h4 {
+    margin-bottom: 3px;
+}
+
+.cabecalho ul {
+    padding-left: 0;
+    list-style: none;
+    margin: 0;
+}
+
+.cabecalho .ico {
+    width: 20px;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+.Evento h3 {
+    font-family: "Courier New", Courier, monospace;
+    text-align: center;
+    margin: 0;
+}
+
+.Evento article {
+    background-color: #fffaf2;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+
+    display: flex;
+    flex-direction: column;  
+    align-items: center;    
+    gap: 20px;
+
+    width: 100%;             
+    max-width: 1200px;      
+    box-sizing: border-box;
+}
+
+.Evento img {
+    flex: 1 1 250px;  
+    max-width: 250px;       
+    min-width: 180px;       
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.Evento img:hover {
+    transform: scale(1.08);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 768px) {
+    #head {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 480px) {
+    .Evento img {
+        min-width: 140px;
+    }
+}
