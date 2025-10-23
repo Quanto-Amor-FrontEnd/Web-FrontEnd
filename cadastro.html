@@ -32,9 +32,9 @@
                 <input type="password" id="senha" name="senha" required><br>
 
                 <label for="senha_confirmar">Confirmar Senha:</label><br>
-                <input type="password" id="senha_confirmar" name="senha_confirmar" required><br>
+                <input type="password" id="senha_confirmar" name="senha_confirmar" required oninput="this.setCustomValidity(this.value !== document.getElementById('senha').value ? 'As senhas não coincidem.' : '')"><br>
 
-                <button type="button" onclick="botaoCadastro()">Cadastrar</button>
+                <input type="submit">
             </form>
         </section>
     </main>
