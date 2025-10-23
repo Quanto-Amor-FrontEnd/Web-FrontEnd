@@ -10,17 +10,21 @@ Projeto de extensão: [Quanto Amor Você Tem Para Dar?](https://www.instagram.co
 
 ## Descrição do projeto
 
-Frontend site developed with HTML, CSS, and JavaScript, displaying information and impacts of the project.
+Site informativo do projeto de extensão *Quanto Amor Você tem para Dar?* Com o objetivo de divulgar o projeto a fim de aumentar sua visibilidade, por meio de um site contendo informações e notícias sobre temáticas socioambientais, englobando as ODSs 4, 10, 11, 12, 
+13. 
 
 ## Estrutura do projeto
 ```
 📦 raiz
 ┣📂 css
-┣📂 js
 ┣📂 assets
 ┃ ┣📂 figs
 ┃ ┗📂 img
-┗🌐 index.html
+┣🌐 cadastro.html
+┣🌐 index.html
+┣🌐 login.html
+┣🌐 resultadosAno.html
+┗📘README.md
 ```
 > **Nota:**
 >
