@@ -16,10 +16,12 @@ Site informativo do projeto de extensão *Quanto Amor Você tem para Dar?* Com o
 ## Estrutura do projeto
 ```
 📦 raiz
-┣📂 css
 ┣📂 assets
 ┃ ┣📂 figs
 ┃ ┗📂 img
+┣📂 css
+┣📂 js
+┣🌐 admin.html
 ┣🌐 cadastro.html
 ┣🌐 index.html
 ┣🌐 login.html
