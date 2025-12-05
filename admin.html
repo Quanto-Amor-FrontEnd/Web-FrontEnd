@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Projeto Quanto Amor Você Tem Para Dar - UTFPR">
+    <title>Quanto Amor Você Tem Para Dar?</title>
+    <link rel="icon" href="assets/figs/bigLogo.ico">
+    <link rel="stylesheet" href="css/styleAdmin.css">
+</head>
+
+<body>
+    <button type="button" onclick="window.location.href='index.html'">Voltar</button>
+
+    <main class="cabecalho_form">
+        <aside class="titulo_form">
+            <section>
+                <img id="logo" src="assets/img/QuantoAmor.png" alt="Logo do projeto Quanto Amor Você Tem Para Dar?">
+                <h2>Admin - Cadastro de Usuários</h2>
+            </section>
+        </aside>
+
+        <section class="info_form">
+            <h2>Insira as informações abaixo</h2>
+            <form id="admin_form">
+                <label for="admin_nome">Nome do usuário:</label><br>
+                <input id="admin_nome" type="text" required><br>
+
+                <label for="admin_email">E-mail:</label><br>
+                <input id="admin_email" type="email" required><br>
+
+                <button id="cadastrar_admin" type="button">Cadastrar</button>
+                <button id="limpar_admin" type="button">Limpar</button>
+                <button id="excluir_todos" type="button">Excluir todos</button>
+            </form>
+
+            <label for="admin_search">Pesquisar (nome ou e-mail):</label><br>
+            <input id="admin_search" type="search" placeholder="Digite para pesquisar..."><br>
+
+            <h3>Lista de Usuários Cadastrados</h3>
+            <ul id="admin_list"></ul>
+        </section>
+    </main>
+
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
